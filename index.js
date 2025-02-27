@@ -1,8 +1,8 @@
-const express = require('express');
-const app = express();
+// const express = require('express');
+// const app = express();
 const db = require('./db');
 const employeeRoutes = require('./controller/employee.controller');
-require('express-async-errors');
+//require('express-async-errors');
 
 // Middleware
 app.use(express.json()); // Use express's built-in JSON parser
