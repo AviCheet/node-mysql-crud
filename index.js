@@ -25,5 +25,5 @@ db.query("SELECT 1")
     })
     .catch(err => {
         console.error('❌ Database connection failed:', err);
-        process.exit(1); // Exit process if DB connection fails
+        process.exit(1); // Exit process if DB connection fails..
     });
